@@ -73,6 +73,7 @@ dockerenv: &dockerenv
         echo "export CONTAINER_NAME=${CONTAINER_NAME}" >> ${BASH_ENV}
         echo "export DOCKER_TAG=${DOCKER_TAG}" >> ${BASH_ENV}
         echo "export REPO_NAME=${REPO_NAME}" >> ${BASH_ENV}
+        echo "export DOCKERFILE_PATH=${DOCKERFILE_PATH}" >> ${BASH_ENV}
         cat ${BASH_ENV}
 
 
