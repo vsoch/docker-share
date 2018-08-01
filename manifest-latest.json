@@ -1,0 +1,99 @@
+[
+    {
+        "Id": "sha256:42b523107ce0f9a91c45c3683546f6e32a71b4d0010ee68e08895d6d9888d28b",
+        "RepoTags": [
+            "vanessa/docker-share:c1ac1a6e24"
+        ],
+        "RepoDigests": [],
+        "Parent": "",
+        "Comment": "",
+        "Created": "2018-08-01T13:32:17.190316129Z",
+        "Container": "7ea4093d55e357424b52d1a15a5fe7e9b53877ab6fda957f761e79cd84edcb93",
+        "ContainerConfig": {
+            "Hostname": "7ea4093d55e3",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=C.UTF-8",
+                "LC_ALL=C.UTF-8",
+                "TINI_VERSION=v0.16.1"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "#(nop) ",
+                "ENTRYPOINT [\"scif\"]"
+            ],
+            "ArgsEscaped": true,
+            "Image": "sha256:fe4a8c910da7692bcc48b5dbf0c858f9ccf425d7f8c5c16939a5b2dfd2ca7d2e",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": [
+                "scif"
+            ],
+            "OnBuild": [],
+            "Labels": {}
+        },
+        "DockerVersion": "17.09.0-ce",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=C.UTF-8",
+                "LC_ALL=C.UTF-8",
+                "TINI_VERSION=v0.16.1"
+            ],
+            "Cmd": null,
+            "ArgsEscaped": true,
+            "Image": "sha256:fe4a8c910da7692bcc48b5dbf0c858f9ccf425d7f8c5c16939a5b2dfd2ca7d2e",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": [
+                "scif"
+            ],
+            "OnBuild": [],
+            "Labels": null
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 481227793,
+        "VirtualSize": 481227793,
+        "GraphDriver": {
+            "Data": null,
+            "Name": "aufs"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:0f3a12fef684003e8dc0dfdcea32789db2179c6f9ad1e1e89bc05754ac44c6c5",
+                "sha256:8ba338eef54241b3eed90e5cc938808004510e39dba76c068ac5c70dfd64a8bb",
+                "sha256:a78ded6965f1f8ef83ecc99e6dbc7d27f7feadfc609c358692b25a63708a373e",
+                "sha256:68f2589f916c28c6785d932c60c2ef4066604b6161a0db1bcbfd42807ad11c61",
+                "sha256:80804729c572fe2ece71a240daafcdc0fd6f35b1094cb38d92da37cffa5b1329",
+                "sha256:e67885fef5c7f81fd1ad8e68e56a18e9c0fff342ff6c15773989112dbdf5a198",
+                "sha256:b917258ad4cae9e7a37b602a550533a098692b10a8061ad62e1292a8715a0967",
+                "sha256:e89afba87a050dbf6e43fa3fda811f690c9b0cae247020caef52fa533670ca20",
+                "sha256:0a529683102b5cb17ac89bd318183897b893b604f406989dfac5617c8f6e6184"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+]
