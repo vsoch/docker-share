@@ -146,7 +146,7 @@ dockerbuild: &dockerbuild
         else
             echo "Dockerfile found at ${DOCKERFILE_PATH}";
         fi
-        docker build --name docker-share -td "${CONTAINER_NAME}:${DOCKER_TAG}"
+        docker build -td "${CONTAINER_NAME}:${DOCKER_TAG}"
         docker ps
         docker images
 
