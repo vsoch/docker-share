@@ -4,7 +4,9 @@
         "RepoTags": [
             "vanessa/docker-share:a1a01456a9"
         ],
-        "RepoDigests": [],
+        "RepoDigests": [
+            "vanessa/docker-share@sha256:1ffd9898b4ef0a12db6e07ba40b85f6100d36e45f7d0eeab309cdbd820012f7d"
+        ],
         "Parent": "",
         "Comment": "",
         "Created": "2018-08-02T07:38:03.428532299Z",
