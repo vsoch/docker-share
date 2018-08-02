@@ -146,12 +146,14 @@ section, you want to define the following:
 
 1.  `CONTAINER_NAME` should be the name of the Docker Hub repository you
     just created.
-2.  `DOCKER_TAG` is the tag you want to use. If not defined, will use
+2.  `DOCKERFILE_PATH` should be the Dockerfile that you intend to use in your repository. If not defined, we
+    assume "Dockerfile" at the root of the repository.
+3.  `DOCKER_TAG` is the tag you want to use. If not defined, will use
     first 10 characters of commit.
-3.  `DOCKER_USER` and `DOCKER_PASS` should be your credentials (to
+4.  `DOCKER_USER` and `DOCKER_PASS` should be your credentials (to
     allowing pushing)
-4.  `GITHUB_USER` and `GITHUB_EMAIL` should be your machine user Github account
-5.  `REPO_NAME` should be the full Github url (or other) of the
+5.  `GITHUB_USER` and `GITHUB_EMAIL` should be your machine user Github account
+6.  `REPO_NAME` should be the full Github url (or other) of the
     repository with the notebook. This doesn't have to coincide with the
     repository you are using to do the build (e.g., "myrepo" in our
     example).
